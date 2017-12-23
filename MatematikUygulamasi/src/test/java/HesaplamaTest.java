@@ -29,4 +29,14 @@ public class HesaplamaTest {
 		assertEquals(-39, gercekSonuc);
 	}
 
+	@Test
+	public void testToplaNegatif() {
+		int gercekSonuc = Hesaplama.topla(-25, -14);
+		assertEquals(-39, gercekSonuc);
+	}
+	@Test
+	public void testcarpma() {
+		int gercekSonuc = Hesaplama.carp(3, 5);
+		assertEquals(15, gercekSonuc);
+	}
 }
