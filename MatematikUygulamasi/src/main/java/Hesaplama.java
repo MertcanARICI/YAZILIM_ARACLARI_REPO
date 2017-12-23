@@ -7,7 +7,7 @@
 public class Hesaplama {
 
 	public static void main(String[] args){
-		int sonuc = topla(19, 25);
+		int sonuc = topla(36, 86);
 		System.out.println(sonuc);
 	}
 	
